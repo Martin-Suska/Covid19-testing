@@ -31,3 +31,5 @@ Keď to poskladáme dohromady:
 Keď zafixujeme v tejto rovnici P<sub>n</sub> (použijeme namerané hodnoty), potom vypočítame z toho ideálne K do mixu:
 
 ![expected test count table](/images/expected_test_count_table.png)
+
+V tabuľke vyššie je vidieť pre aké K dostaneme najväčšie ušetrenie. Napr. do hodnoty 87.5% pre P<sub>n</sub> je optimálne K 3, od 88% po 93.5% je to 4. Hodnota pre K=4 a P<sub>n</sub>=90% je 0.59390, čo znamená, že sa ušetrí 40% testov (čiže na 100 otestovaných stačí 60 testov).
