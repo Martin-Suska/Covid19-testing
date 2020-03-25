@@ -18,7 +18,7 @@ Povedzme, že vieme (po dňoch testovania máme skúsenosť) koľko testov vych�
 
 Keď budeme testovať mix vytvorený z K vzoriek, tak pravdepodobnoť, že mix je negatívny je P<sub>kn</sub> = P<sub>n</sub><sup>K</sup>.
 
-Pravdepodobnost opačného javu, že mix je pozitívny je P<sub>kp</sub> = 1 - P<sub>kn</sub>.
+Pravdepodobnosť opačného javu, že mix je pozitívny je P<sub>kp</sub> = 1 - P<sub>kn</sub>.
 
 Keď to poskladáme dohromady:
 - urobíme mix a otestujeme mix (tj. jeden test)
@@ -32,4 +32,4 @@ Keď zafixujeme v tejto rovnici P<sub>n</sub> (použijeme namerané hodnoty), po
 
 ![expected test count table](/images/expected_test_count_table.png)
 
-V tabuľke vyššie je vidieť pre aké K dostaneme najväčšie ušetrenie. Napr. do hodnoty 87.5% pre P<sub>n</sub> je optimálne K 3, od 88% po 93.5% je to 4. Hodnota pre K=4 a P<sub>n</sub>=90% je 0.59390, čo znamená, že sa ušetrí 40% testov (čiže na 100 otestovaných stačí 60 testov).
+V tabuľke vyššie je vidieť pre aké K dostaneme najväčšie ušetrenie. Napr. do hodnoty 87.5% pre P<sub>n</sub> je optimálne K=3, od 88% po 93.5% je to 4. Hodnota pre K=4 a P<sub>n</sub>=90% je 0.59390, čo znamená, že sa ušetrí 40% testov (čiže na 100 otestovaných stačí 60 testov).
